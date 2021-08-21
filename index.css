@@ -11,11 +11,10 @@ body {
 
 #rawTextArea {
     border:2px solid rgb(194, 59, 59);
-    height:100px;
     padding:2px 0;
     display:flex;
     width:80%;
-    height: 105pt;
+    height: 205pt;
     margin-left:auto;
     margin-right:auto;
     font-style:italic;
@@ -25,10 +24,10 @@ body {
 
 #formattedTextArea {
     border:2px solid rgb(110, 207, 102);
-    height: 100pt;
     padding:10px 0;
     display:flex;
     width:80%;
+    height: 200pt;
     margin-left:auto;
     margin-right:auto;
     color: ivory;
