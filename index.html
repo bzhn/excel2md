@@ -4,19 +4,17 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div>
+    <div class="container">
         <div>
             <textarea oninput="startFormatting()" id="rawTextArea"></textarea>
+            <br>
             <textarea id="formattedTextArea"></textarea>
         </div>
         <div>
-            <button onclick="copytext('#formattedTextArea')">Скопировать текст</button>
+            <button onclick="copytext('#formattedTextArea')" id="copytext">Скопировать текст</button>
         </div>
     </div>
 
-
-
-    
     <script src="index.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
 </body>
