@@ -1,0 +1,11 @@
+#rawTextArea {
+    height: 100pt;
+    width: 45vmax;
+    color: brown;
+}
+
+#formattedTextArea {
+    height: 100pt;
+    width: 45vmax;
+    color: brown;
+}
