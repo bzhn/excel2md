@@ -1,7 +1,9 @@
 # excel2md
-Преобразовать таблицу с табуляциями в таблицу markdown.
+Convert table with tabs (copied from Excel or HTML-table) to markdown table.
 
-#№# Пример
+Check it out here: https://bzhn.github.io/excel2md/
+
+### Пример
 
 До:  
 1	9/8/2015	Get Groceries  
@@ -22,4 +24,3 @@
 ### Примечания
 
 По состоянию на 2021/08/22 таблица будет преобразована в том случае, если у нее есть более чем 3 строки.  
-JS-код написан плохо, но он работает.  
