@@ -3,17 +3,18 @@ Convert table with tabs (copied from Excel or HTML-table) to markdown table.
 
 Check it out here: https://bzhn.github.io/excel2md/
 
-### Пример
+### Example
 
-До:  
+Before:
+
+```
 1	9/8/2015	Get Groceries  
 2	9/8/2015	Call Mom  
 3	9/8/2015	Get Dentist Appointment  
 4	9/8/2015	Pay Electricity Bill  
+```
 
-
-
-После:
+After:
 ||||
 | --- | --- | --- |
 |1|9/8/2015|Get Groceries|
@@ -21,6 +22,6 @@ Check it out here: https://bzhn.github.io/excel2md/
 |3|9/8/2015|Get Dentist Appointment|
 |4|9/8/2015|Pay Electricity Bill|
 
-### Примечания
+# TODO
 
-По состоянию на 2021/08/22 таблица будет преобразована в том случае, если у нее есть более чем 3 строки.  
+- [ ] Allow user to specify his own names for columns by keeping the first line of excel text area empty

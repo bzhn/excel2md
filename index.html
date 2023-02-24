@@ -1,20 +1,33 @@
 <!DOCTYPE html>
+<html>
+
 <head>
-    <title>Create Markdown Table</title>
+    <title>Excel to Markdown table converter</title>
     <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
     <div class="container">
-        <div>
-            <textarea oninput="startFormatting()" id="rawTextArea"></textarea>
-            <br>
-            <textarea id="formattedTextArea"></textarea>
+        <h1>Excel to Markdown table converter</h1>
+
+        <div class="textarea-container">
+            <label for="excel-textarea">Excel table:</label>
+            <textarea id="excel-textarea" rows="10" oninput="startFormatting()"></textarea>
         </div>
-        <div>
-            <button onclick="copytext('#formattedTextArea')" id="copytext">Copy</button>
+
+        <div class="textarea-container">
+            <label for="markdown-textarea">Markdown table:</label>
+            <textarea id="markdown-textarea" rows="10"></textarea>
+            <button class="copy-btn" onclick="copyMarkdownTable()">Copy to clipboard</button>
+        </div>
+
+        <div class="mode-container">
+            <button id="mode-toggle" class="mode-toggle-btn"></button>
+            <span class="mode-text">Change Mode</span>
         </div>
     </div>
-
     <script src="index.js"></script>
-    <script src="js/jquery-3.6.0.js"></script>
 </body>
+
+</html>
